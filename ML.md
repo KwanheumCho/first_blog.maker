@@ -10,7 +10,6 @@ pagination:
 main_nav: false
 ---
 ML 공부 전반에 대한 포스팅입니다.
----
 
 
 <div class="wrapper">

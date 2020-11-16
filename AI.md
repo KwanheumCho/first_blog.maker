@@ -14,8 +14,6 @@ main_nav: false
 AI 공부 전반에 대한 포스팅입니다.
 
 
-
-
 <div class="wrapper">
 <ul class="post-list">
   {% for post in paginator.posts %}
@@ -23,7 +21,7 @@ AI 공부 전반에 대한 포스팅입니다.
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-	<section class="post-excerpt" itemprop="description">
+    <section class="post-excerpt" itemprop="description">
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
     </section>
     <section class="post-meta">
@@ -38,8 +36,10 @@ AI 공부 전반에 대한 포스팅입니다.
       {% endfor %}{% endif %}
       </div>
     </section>
-
   </li>
+  {% if forloop.last == false %}
+  <hr>
+  {% endif %}
   {% endfor %}
 </ul>
 
@@ -85,40 +85,3 @@ AI 공부 전반에 대한 포스팅입니다.
 </nav>
 
 </div>
-
-
-
-<!--
-{% for category in site.categories %}
-  {% capture cat%}{{category|first}}{% endcapture %}
-  {% if cat==page.title %}
-  <ul class="posts-list">
-  {% for post in site.categories[cat] %}
-    <li>
-      <strong>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </strong>
-      <span class="post-date">- {{ post.date | date_to_long_string }}</span>
-    </li>
-  {% endfor %}
-  </ul>
-  {% if forloop.last == false %}<hr>{% endif %}
-  {% endif %}
-{% endfor %}
-<br>
-
-
-{% for category in site.categories %}
-  <ul class="categories">
-    {% for categoryName in category[0] %}
-      <li>
-      	<span><a href="/posts/{{categoryName}}">
-	{{ categoryName }}
-	</a></span>
-	<span class="count">{{category[1].size}}</span>
-	
-	</li>
-    {% endfor %}
-</ul>
-{% endfor %}
--->
