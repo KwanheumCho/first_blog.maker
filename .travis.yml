@@ -6,10 +6,12 @@ cache: bundler
 rvm:
 - 2.2.2
 
-  #install:
+install:
   # Install Jekyll and dependencies
   #- bundle update --bunlder
   #- bundle install
+  - gem install bundler:2.1.4
+  - bundle install      
 
 before_script:
   - git config --global user.email "rhksgma258@gmail.com"
