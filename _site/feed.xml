@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>조관흠의 블로그</title>
+    <description>Coding, Research, and Life
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 16 Nov 2020 13:32:22 +0900</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2020 13:32:22 +0900</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Test Post</title>
+        <description>&lt;p&gt;카테고리 생성 테스트&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/ai/2020/11/15/test6.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ai/2020/11/15/test6.html</guid>
+        
+        
+        <category>AI</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Post</title>
+        <description>&lt;p&gt;카테고리 생성 테스트&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/ai/2020/11/15/test5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ai/2020/11/15/test5.html</guid>
+        
+        
+        <category>AI</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Post</title>
+        <description>&lt;p&gt;카테고리 생성 테스트&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/ai/2020/11/15/test4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ai/2020/11/15/test4.html</guid>
+        
+        
+        <category>AI</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Post3</title>
+        <description>&lt;p&gt;카테고리 생성 테스트&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/ml/2020/11/15/test3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ml/2020/11/15/test3.html</guid>
+        
+        
+        <category>ML</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Post2</title>
+        <description>&lt;p&gt;카테고리 생성 테스트&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/cs/2020/11/15/test2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/cs/2020/11/15/test2.html</guid>
+        
+        
+        <category>CS</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Post</title>
+        <description>&lt;p&gt;카테고리 생성 테스트&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/ai/2020/11/15/test.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ai/2020/11/15/test.html</guid>
+        
+        
+        <category>AI</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -8,6 +8,21 @@ plugins:
 exclude:
   - "/vendor/"
 
+#for Travis CI ################
+destination: ./_site
+production_url: https://KwanheumCho.github.io/
+source_url: https://github.com/KwanheumCho/first_blog.maker
+
+safe: False
+lsi: False
+
+username: KwanheumCho
+repo: first_blog.maker
+branch: master
+#####################
+
+
+
 # Site settings
 title: 조관흠의 블로그
 subtitle: "평범하지 않게 살기 위한 매일의 기록"
@@ -32,7 +47,7 @@ highlightjs_theme: "monokai-sublime"
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 3
   permalink: "/page/:num/"
   sort_reverse: true
 
