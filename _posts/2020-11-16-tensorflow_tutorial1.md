@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TensorFlow Tutorial1 - 텐서플로를 이용한 기본 분류"
-date:   2020-11-16T14:25:52-15:00
+date:   2020-11-10T14:25:52-15:00
 author: Cho Kwanheum
 categories: AI
 ---

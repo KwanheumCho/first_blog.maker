@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TensorFlow Tutorial3 - 케라스와 텐서플로 허브를 사용한 영화 리뷰텍스트 분류하기"
-date:   2020-11-16T14:25:52-15:30
+date:   2020-11-12T14:25:52-15:30
 author: Cho Kwanheum
 categories: AI
 ---
