@@ -8,6 +8,7 @@ rvm:
 
 install:
   # Install Jekyll and dependencies
+  - bundle update --bunlder
   - bundle install
 
 before_script:
