@@ -34,7 +34,7 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://kwanheumcho.github.io" # the base hostname & protocol for your site
+url: https://kwanheumcho.github.io # the base hostname & protocol for your site
 cover: "/assets/lake_image.jpg"
 logo: "/assets/Homelogo.png"
 
