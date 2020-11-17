@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 #for Travis CI ################
-destination: ./output
+destination: ./outputs
 production_url: https://KwanheumCho.github.io/
 source_url: https://github.com/KwanheumCho/first_blog.maker
 
