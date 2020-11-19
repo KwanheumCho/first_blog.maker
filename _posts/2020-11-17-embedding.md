@@ -3,6 +3,9 @@ layout: post
 title:  "기본 개념 : Embedding이란"
 date:   2020-11-15T14:25:52-15:00
 author: Cho Kwanheum
+sitemap:
+   changefreq: daily
+   priority: 1.0
 categories: AI
 ---
 
