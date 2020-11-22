@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TensorFlow Tutorial2 - Keras를 이용한 기본 텍스트분류"
+title:  "[TensorFlow] Tutorial2 - Keras를 이용한 기본 텍스트분류"
 date:   2020-11-16T14:25:52-15:00
 author: Cho Kwanheum
 categories: AI
